@@ -80,6 +80,10 @@ img {
   background-position: center center;
   background-size: cover;
   height: 60rem;
+  display: flex;
+  flex-direction: column; /* Cambio aquí para responsividad */
+  align-items: center; /* Centra el contenido */
+  padding: 2rem 0; /* Aumenta el espacio */
 }
 .site-header a {
   color: white;
